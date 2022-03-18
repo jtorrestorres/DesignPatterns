@@ -13,7 +13,7 @@ namespace DependencyInjection
             private IMeteoReferencia termometro;
             public EstacioMeteorologica()
             {
-                termometro = new Termometro();
+                termometro = new Termometro();  
             }
             public void MostrarDatos()
             {

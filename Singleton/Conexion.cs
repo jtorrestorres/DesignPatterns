@@ -11,7 +11,7 @@ namespace Singleton
         // The Singleton's constructor should always be private to prevent
         // direct construction calls with the `new` operator.
         private Conexion() 
-        {
+        { 
 
         }
 

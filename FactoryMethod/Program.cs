@@ -12,8 +12,8 @@ namespace FactoryMethod
         static void Main(string[] args)
         {
             RealizarCompra obj = new RealizarCompra();
-            obj.ProcesarPago(new Producto());
+            obj.ProcesarPago(new Producto()); 
 
         }
     }
-}
+} 
