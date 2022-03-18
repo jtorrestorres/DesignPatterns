@@ -12,6 +12,7 @@ namespace Singleton
     {
         static void Main(string[] args)
         {
+            //Prueba commit 2
             // The client code.
             Conexion s1 = Conexion.GetInstancia();
             Conexion s2 = Conexion.GetInstancia();
